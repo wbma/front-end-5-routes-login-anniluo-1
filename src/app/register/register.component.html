@@ -1,0 +1,12 @@
+<form (submit)="register()">
+  <input (ngModel) = "user.username" placeholder="username">
+  <br>
+  <input (ngModel) = "user.email" placeholder="email" type="email">
+  <br>
+  <input (ngModel) = "user.password" placeholder="password" type="password">
+  <br>
+  <input (ngModel) = "user.fullName" placeholder="full name (optional)">
+  <br>
+  <button type="submit">Register</button>
+</form>
+{{ mediaService.status }}
